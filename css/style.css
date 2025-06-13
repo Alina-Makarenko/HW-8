@@ -28,3 +28,27 @@ td{
     font-size:medium;
     color: rgb(80, 175, 80);
 }
+.day1:nth-child(5n){
+    color: aqua;
+}
+.day1:nth-child(-n+4){
+    color:crimson;
+}
+.day2:nth-child(-n+5){
+color: goldenrod;
+}
+.day2:nth-child(n+1):hover{
+color:indianred;
+}
+.day3:first-child{
+    color: cadetblue;
+}
+.day3:first-child:hover{
+    color:cornflowerblue;
+}
+.day3:last-child{
+    color: cornflowerblue;
+}
+.day3:last-child:hover{
+    color: cadetblue;
+}
